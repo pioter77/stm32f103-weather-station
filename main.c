@@ -4,6 +4,9 @@
 #include "uart_drive.h"
 #include "str_lib.h"
 #include "sim800_drive.h"
+#include "main.h"
+#include "adc_drive.h"
+
 /*
 UART manager:
 0-count		incrementing each itme we receive msg
@@ -30,7 +33,7 @@ static char USART_3_msg[2000];
 //static unsigned short USART_3_bdg=0;
 unsigned short uart_3_mgr[7]={0,0,0,0,0,0,0};
 
-
+Readouts ReadoutsHolder={0,0,0};
 
 int main(void)
 {
@@ -40,11 +43,18 @@ int main(void)
 	UART_init(3,9600);
 	delay_MS(100);		//time delay in order to seet the registers
 
-
+	//init adc
+		RCC->APB2ENR =RCC_APB2ENR_IOPBEN | RCC_APB2ENR_ADC1EN | RCC_APB2ENR_IOPAEN;
+	init_GP(PB,0,IN,I_AN);
+	init_GP(PB,1,IN,I_AN);
+	init_GP(PA,1,IN,I_AN);	//thermostor can be plugged for now with photoresisitr
+	ADC1->CR2=ADC_CR2_ADON;		//wybudz adc ze sleepa zwieksza to zuzycie pradu
+delay_MS(2);	//adc needs 1us of wait to initialize properly
 	//delay_MS(100);		//time delay in order to seet the registers
 	//	UART_send(2,"MSG SMS SENT");//nucle com6
 	//UART_send(2,order_term_buf);//adapter com10
-sim800_send_sms(3);
+	update_adc_readouts(&ReadoutsHolder);
+	sim800_send_sms(3,&ReadoutsHolder);
 	while(1)
 	{
 			if(uart_2_mgr[1]==1)
