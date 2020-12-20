@@ -32,7 +32,7 @@ void systick_inter_start(void)
 {//fcn needed for uart handling interrupt strategy
 		__disable_irq();
 	SysTick->CTRL=0;
-	SysTick->LOAD=720000;	//almost 1 ms delay between interrupts 
+	SysTick->LOAD=72000;	//almost 1 ms delay between interrupts 
 	SysTick->VAL=0;
 	SysTick->CTRL	|=7;		//7 we are initialising the interrupt
 	__enable_irq();

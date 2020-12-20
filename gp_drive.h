@@ -1,3 +1,6 @@
+#ifndef GP_DRIVE_H
+#define GP_DRIVE_H
+
 #define RCC_APB2ENR (*((volatile unsigned long *) 0x40021018))
 
 #define GPIO_A (*((volatile unsigned long *) 0x40010800))
@@ -35,3 +38,5 @@ void init_GP(unsigned short port,unsigned short pin,unsigned short dir,unsigned 
 int read_GP(unsigned short port,unsigned short pin);		//read input state
 void write_GP(unsigned short port,unsigned short pin,unsigned short state);		//wrtie pin state output
 void toggle_GP(unsigned short port,unsigned short pin);		//function to toggle output
+
+#endif

@@ -27,7 +27,45 @@ Project File Date:  12/14/2020
 <h2>Output:</h2>
 *** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-".\Objects\proj_stacja.axf" - 0 Error(s), 0 Warning(s).
+main.c(153): warning: no previous prototype for function 'EXTI0_IRQHandler' [-Wmissing-prototypes]
+void EXTI0_IRQHandler()
+     ^
+main.c(153): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void EXTI0_IRQHandler()
+^
+static 
+main.c(165): warning: unused parameter 'addr' [-Wunused-parameter]
+void write_BAK_reg(uint8_t addr,uint16_t data)
+                           ^
+main.c(170): warning: unused parameter 'addr' [-Wunused-parameter]
+uint16_t read_BAK_reg(uint8_t addr)
+                              ^
+main.c(175): warning: no previous prototype for function 'USART2_IRQHandler' [-Wmissing-prototypes]
+void USART2_IRQHandler()
+     ^
+main.c(175): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USART2_IRQHandler()
+^
+static 
+main.c(179): warning: no previous prototype for function 'USART3_IRQHandler' [-Wmissing-prototypes]
+void USART3_IRQHandler()
+     ^
+main.c(179): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USART3_IRQHandler()
+^
+static 
+main.c(184): warning: no previous prototype for function 'SysTick_Handler' [-Wmissing-prototypes]
+void SysTick_Handler(void)
+     ^
+main.c(184): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SysTick_Handler(void)
+^
+static 
+6 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=5776 RO-data=268 RW-data=8 ZI-data=3920  
+".\Objects\proj_stacja.axf" - 0 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -55,10 +93,10 @@ Package Vendor: Keil
 
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_stm32f10x_md.s
-      Source file:   Device\Source\system_stm32f10x.c
       Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
       Source file:   Device\Source\ARM\STM32F1xx_OPT.s
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

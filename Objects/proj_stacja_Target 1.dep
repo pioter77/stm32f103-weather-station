@@ -1,9 +1,9 @@
 Dependencies for Project 'proj_stacja', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6140000::V6.14::ARMCLANG
 F (.\gp_drive.c)(0x5F94A56B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/gp_drive.o -MD)
-I (gp_drive.h)(0x5F31620D)
-F (.\gp_drive.h)(0x5F31620D)()
-F (.\main.c)(0x5FD69CFF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (gp_drive.h)(0x5FDF8811)
+F (.\gp_drive.h)(0x5FDF8811)()
+F (.\main.c)(0x5FDF965D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
 I (RTE\_Target_1\RTE_Components.h)(0x5FD663F5)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
@@ -14,14 +14,15 @@ I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
-I (gp_drive.h)(0x5F31620D)
-I (uart_drive.h)(0x5FD5FA42)
+I (gp_drive.h)(0x5FDF8811)
+I (uart_drive.h)(0x5FDF87D0)
 I (str_lib.h)(0x5FC2A16D)
-I (sim800_drive.h)(0x5FD699F5)
-I (main.h)(0x5FD69AC4)
+I (sim800_drive.h)(0x5FDF87A5)
+I (main.h)(0x5FDF8848)
 I (adc_drive.h)(0x5FD69B18)
+I (systick_lib.h)(0x5FDF8775)
 F (.\sim800_drive.c)(0x5FD69CD8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/sim800_drive.o -MD)
-I (sim800_drive.h)(0x5FD699F5)
+I (sim800_drive.h)(0x5FDF87A5)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
 I (RTE\_Target_1\RTE_Components.h)(0x5FD663F5)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
@@ -32,15 +33,15 @@ I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
-I (main.h)(0x5FD69AC4)
-I (uart_drive.h)(0x5FD5FA42)
-I (systick_lib.h)(0x5FD404B7)
+I (main.h)(0x5FDF8848)
+I (uart_drive.h)(0x5FDF87D0)
+I (systick_lib.h)(0x5FDF8775)
 I (str_lib.h)(0x5FC2A16D)
-F (.\sim800_drive.h)(0x5FD699F5)()
+F (.\sim800_drive.h)(0x5FDF87A5)()
 F (.\str_lib.c)(0x5FC2B16C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/str_lib.o -MD)
 I (str_lib.h)(0x5FC2A16D)
 F (.\str_lib.h)(0x5FC2A16D)()
-F (.\systick_lib.c)(0x5FBEBB7A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/systick_lib.o -MD)
+F (.\systick_lib.c)(0x5FDF8213)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/systick_lib.o -MD)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
 I (RTE\_Target_1\RTE_Components.h)(0x5FD663F5)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
@@ -51,10 +52,10 @@ I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
-I (systick_lib.h)(0x5FD404B7)
-F (.\systick_lib.h)(0x5FD404B7)()
+I (systick_lib.h)(0x5FDF8775)
+F (.\systick_lib.h)(0x5FDF8775)()
 F (.\uart_drive.c)(0x5FD40079)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/uart_drive.o -MD)
-I (uart_drive.h)(0x5FD5FA42)
+I (uart_drive.h)(0x5FDF87D0)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
 I (RTE\_Target_1\RTE_Components.h)(0x5FD663F5)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
@@ -65,10 +66,10 @@ I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
-I (gp_drive.h)(0x5F31620D)
-I (systick_lib.h)(0x5FD404B7)
+I (gp_drive.h)(0x5FDF8811)
+I (systick_lib.h)(0x5FDF8775)
 I (str_lib.h)(0x5FC2A16D)
-F (.\uart_drive.h)(0x5FD5FA42)()
+F (.\uart_drive.h)(0x5FDF87D0)()
 F (.\adc_drive.c)(0x5FD69787)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/adc_drive.o -MD)
 I (adc_drive.h)(0x5FD69B18)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
@@ -81,9 +82,9 @@ I (C:\Users\piotr\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cms
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
 I (C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
-I (main.h)(0x5FD69AC4)
+I (main.h)(0x5FDF8848)
 F (.\adc_drive.h)(0x5FD69B18)()
-F (.\main.h)(0x5FD69AC4)()
+F (.\main.h)(0x5FDF8848)()
 F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59283406)()
 F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58258CCC)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
 F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58258CCC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/piotr/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/piotr/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)

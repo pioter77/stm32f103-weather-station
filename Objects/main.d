@@ -9,4 +9,5 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
   C:\Users\piotr\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h \
-  gp_drive.h uart_drive.h str_lib.h sim800_drive.h main.h adc_drive.h
+  gp_drive.h uart_drive.h str_lib.h sim800_drive.h main.h adc_drive.h \
+  systick_lib.h
