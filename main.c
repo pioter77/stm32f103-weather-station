@@ -72,6 +72,8 @@ int main(void)
 	init_GP(PA,9,OUT50,O_GP_PP);
 	write_GP(PA,8,LOW);
 	write_GP(PA,9,LOW);
+	init_GP(PB,15,OUT50,O_GP_PP);	//trnasistor base for sim800l
+	write_GP(PB,15,HIGH);
 	
 	init_BAK_reg();
 		if(read_BAK_reg(1) < 4 && read_BAK_reg(1)>0)//check rtc memm
@@ -100,10 +102,12 @@ int main(void)
 	init_GP(PB,1,IN,I_AN);
 	init_GP(PA,1,IN,I_AN);	//thermostor can be plugged for now with photoresisitr
 	ADC1->CR2=ADC_CR2_ADON;		//wybudz adc ze sleepa zwieksza to zuzycie pradu
-delay_MS(2);	//adc needs 1us of wait to initialize properly
+	delay_MS(2);	//adc needs 1us of wait to initialize properly
 	//delay_MS(100);		//time delay in order to seet the registers
 	//	UART_send(2,"MSG SMS SENT");//nucle com6
 	//UART_send(2,order_term_buf);//adapter com10
+	delay_MS(20000);	//sim800 to connect
+	
 	update_adc_readouts(&ReadoutsHolder);
 	sim800_send_sms(3,&ReadoutsHolder);
 	while(1)
@@ -132,6 +136,7 @@ delay_MS(2);	//adc needs 1us of wait to initialize properly
 			//GPIOC->CRH &= 
 			write_GP(PA,8,LOW);
 			write_GP(PA,9,LOW);
+			write_GP(PB,15,LOW);	//turn off sim800l power trnasistor base
 			SCB->SCR |= SCB_SCR_SLEEPDEEP;
 			PWR->CR |= PWR_CR_PDDS;			// standby register
 			PWR->CR |= PWR_CR_CWUF;	

@@ -496,34 +496,34 @@ Image Symbol Table
     [Anonymous Symbol]                       0x08000748   Section        0  gp_drive.o(.text.init_GP)
     [Anonymous Symbol]                       0x080007c0   Section        0  str_lib.o(.text.int2str)
     [Anonymous Symbol]                       0x0800082c   Section        0  main.o(.text.main)
-    [Anonymous Symbol]                       0x08000aa0   Section        0  main.o(.text.read_BAK_reg)
-    [Anonymous Symbol]                       0x08000aac   Section        0  gp_drive.o(.text.read_GP)
-    [Anonymous Symbol]                       0x08000ad8   Section        0  sim800_drive.o(.text.sim800_send_sms)
-    [Anonymous Symbol]                       0x08000c1c   Section        0  adc_drive.o(.text.single_readout_ADC1_regu)
-    [Anonymous Symbol]                       0x08000c38   Section        0  str_lib.o(.text.str_concat)
-    [Anonymous Symbol]                       0x08000c80   Section        0  str_lib.o(.text.str_empty)
-    [Anonymous Symbol]                       0x08000c98   Section        0  systick_lib.o(.text.systick_init)
-    [Anonymous Symbol]                       0x08000cc0   Section        0  systick_lib.o(.text.systick_inter_start)
-    [Anonymous Symbol]                       0x08000cec   Section        0  adc_drive.o(.text.update_adc_readouts)
-    [Anonymous Symbol]                       0x08000d0c   Section        0  main.o(.text.write_BAK_reg)
-    [Anonymous Symbol]                       0x08000d18   Section        0  gp_drive.o(.text.write_GP)
-    x$fpl$dadd                               0x08000d58   Section      336  daddsub_clz.o(x$fpl$dadd)
-    _dadd1                                   0x08000d69   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
-    x$fpl$dcmpinf                            0x08000ea8   Section       24  dcmpi.o(x$fpl$dcmpinf)
-    x$fpl$ddiv                               0x08000ec0   Section      688  ddiv.o(x$fpl$ddiv)
-    ddiv_entry                               0x08000ec7   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    x$fpl$deqf                               0x08001170   Section      120  deqf.o(x$fpl$deqf)
-    x$fpl$dfixu                              0x080011e8   Section       90  dfixu.o(x$fpl$dfixu)
-    x$fpl$dfltu                              0x08001242   Section       38  dflt_clz.o(x$fpl$dfltu)
-    x$fpl$dgeqf                              0x08001268   Section      120  dgeqf.o(x$fpl$dgeqf)
-    x$fpl$dleqf                              0x080012e0   Section      120  dleqf.o(x$fpl$dleqf)
-    x$fpl$dmul                               0x08001358   Section      340  dmul.o(x$fpl$dmul)
-    x$fpl$dnaninf                            0x080014ac   Section      156  dnaninf.o(x$fpl$dnaninf)
-    x$fpl$dretinf                            0x08001548   Section       12  dretinf.o(x$fpl$dretinf)
-    x$fpl$dsub                               0x08001554   Section      468  daddsub_clz.o(x$fpl$dsub)
-    _dsub1                                   0x08001565   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
-    x$fpl$fcmp                               0x08001728   Section       84  dcmp.o(x$fpl$fcmp)
-    x$fpl$usenofp                            0x0800177c   Section        0  usenofp.o(x$fpl$usenofp)
+    [Anonymous Symbol]                       0x08000ac4   Section        0  main.o(.text.read_BAK_reg)
+    [Anonymous Symbol]                       0x08000ad0   Section        0  gp_drive.o(.text.read_GP)
+    [Anonymous Symbol]                       0x08000afc   Section        0  sim800_drive.o(.text.sim800_send_sms)
+    [Anonymous Symbol]                       0x08000c40   Section        0  adc_drive.o(.text.single_readout_ADC1_regu)
+    [Anonymous Symbol]                       0x08000c5c   Section        0  str_lib.o(.text.str_concat)
+    [Anonymous Symbol]                       0x08000ca4   Section        0  str_lib.o(.text.str_empty)
+    [Anonymous Symbol]                       0x08000cbc   Section        0  systick_lib.o(.text.systick_init)
+    [Anonymous Symbol]                       0x08000ce4   Section        0  systick_lib.o(.text.systick_inter_start)
+    [Anonymous Symbol]                       0x08000d10   Section        0  adc_drive.o(.text.update_adc_readouts)
+    [Anonymous Symbol]                       0x08000d30   Section        0  main.o(.text.write_BAK_reg)
+    [Anonymous Symbol]                       0x08000d3c   Section        0  gp_drive.o(.text.write_GP)
+    x$fpl$dadd                               0x08000d7c   Section      336  daddsub_clz.o(x$fpl$dadd)
+    _dadd1                                   0x08000d8d   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
+    x$fpl$dcmpinf                            0x08000ecc   Section       24  dcmpi.o(x$fpl$dcmpinf)
+    x$fpl$ddiv                               0x08000ee4   Section      688  ddiv.o(x$fpl$ddiv)
+    ddiv_entry                               0x08000eeb   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    x$fpl$deqf                               0x08001194   Section      120  deqf.o(x$fpl$deqf)
+    x$fpl$dfixu                              0x0800120c   Section       90  dfixu.o(x$fpl$dfixu)
+    x$fpl$dfltu                              0x08001266   Section       38  dflt_clz.o(x$fpl$dfltu)
+    x$fpl$dgeqf                              0x0800128c   Section      120  dgeqf.o(x$fpl$dgeqf)
+    x$fpl$dleqf                              0x08001304   Section      120  dleqf.o(x$fpl$dleqf)
+    x$fpl$dmul                               0x0800137c   Section      340  dmul.o(x$fpl$dmul)
+    x$fpl$dnaninf                            0x080014d0   Section      156  dnaninf.o(x$fpl$dnaninf)
+    x$fpl$dretinf                            0x0800156c   Section       12  dretinf.o(x$fpl$dretinf)
+    x$fpl$dsub                               0x08001578   Section      468  daddsub_clz.o(x$fpl$dsub)
+    _dsub1                                   0x08001589   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
+    x$fpl$fcmp                               0x0800174c   Section       84  dcmp.o(x$fpl$fcmp)
+    x$fpl$usenofp                            0x080017a0   Section        0  usenofp.o(x$fpl$usenofp)
     order_term_buf                           0x20000000   Data           3  sim800_drive.o(.data.order_term_buf)
     [Anonymous Symbol]                       0x20000000   Section        0  sim800_drive.o(.data.order_term_buf)
     sms_term_buf                             0x20000003   Data           4  sim800_drive.o(.data.sms_term_buf)
@@ -702,54 +702,54 @@ Image Symbol Table
     init_BAK_reg                             0x08000725   Thumb Code    34  main.o(.text.init_BAK_reg)
     init_GP                                  0x08000749   Thumb Code   120  gp_drive.o(.text.init_GP)
     int2str                                  0x080007c1   Thumb Code   106  str_lib.o(.text.int2str)
-    main                                     0x0800082d   Thumb Code   626  main.o(.text.main)
-    read_BAK_reg                             0x08000aa1   Thumb Code    12  main.o(.text.read_BAK_reg)
-    read_GP                                  0x08000aad   Thumb Code    44  gp_drive.o(.text.read_GP)
-    sim800_send_sms                          0x08000ad9   Thumb Code   324  sim800_drive.o(.text.sim800_send_sms)
-    single_readout_ADC1_regu                 0x08000c1d   Thumb Code    28  adc_drive.o(.text.single_readout_ADC1_regu)
-    str_concat                               0x08000c39   Thumb Code    70  str_lib.o(.text.str_concat)
-    str_empty                                0x08000c81   Thumb Code    24  str_lib.o(.text.str_empty)
-    systick_init                             0x08000c99   Thumb Code    38  systick_lib.o(.text.systick_init)
-    systick_inter_start                      0x08000cc1   Thumb Code    42  systick_lib.o(.text.systick_inter_start)
-    update_adc_readouts                      0x08000ced   Thumb Code    30  adc_drive.o(.text.update_adc_readouts)
-    write_BAK_reg                            0x08000d0d   Thumb Code    12  main.o(.text.write_BAK_reg)
-    write_GP                                 0x08000d19   Thumb Code    62  gp_drive.o(.text.write_GP)
-    __aeabi_dadd                             0x08000d59   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
-    _dadd                                    0x08000d59   Thumb Code   332  daddsub_clz.o(x$fpl$dadd)
-    __fpl_dcmp_Inf                           0x08000ea9   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
-    __aeabi_ddiv                             0x08000ec1   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    _ddiv                                    0x08000ec1   Thumb Code   552  ddiv.o(x$fpl$ddiv)
-    __aeabi_cdcmpeq                          0x08001171   Thumb Code     0  deqf.o(x$fpl$deqf)
-    _dcmpeq                                  0x08001171   Thumb Code   120  deqf.o(x$fpl$deqf)
-    __aeabi_d2uiz                            0x080011e9   Thumb Code     0  dfixu.o(x$fpl$dfixu)
-    _dfixu                                   0x080011e9   Thumb Code    90  dfixu.o(x$fpl$dfixu)
-    __aeabi_ui2d                             0x08001243   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
-    _dfltu                                   0x08001243   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
-    __aeabi_cdcmpge                          0x08001269   Thumb Code     0  dgeqf.o(x$fpl$dgeqf)
-    _dcmpge                                  0x08001269   Thumb Code   120  dgeqf.o(x$fpl$dgeqf)
-    __aeabi_cdcmple                          0x080012e1   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    _dcmple                                  0x080012e1   Thumb Code   120  dleqf.o(x$fpl$dleqf)
-    __fpl_dcmple_InfNaN                      0x08001343   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    __aeabi_dmul                             0x08001359   Thumb Code     0  dmul.o(x$fpl$dmul)
-    _dmul                                    0x08001359   Thumb Code   332  dmul.o(x$fpl$dmul)
-    __fpl_dnaninf                            0x080014ad   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
-    __fpl_dretinf                            0x08001549   Thumb Code    12  dretinf.o(x$fpl$dretinf)
-    __aeabi_dsub                             0x08001555   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
-    _dsub                                    0x08001555   Thumb Code   464  daddsub_clz.o(x$fpl$dsub)
-    __aeabi_dcmpeq                           0x08001729   Thumb Code     0  dcmp.o(x$fpl$fcmp)
-    _deq                                     0x08001729   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    _dneq                                    0x08001737   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    __aeabi_dcmpgt                           0x08001745   Thumb Code     0  dcmp.o(x$fpl$fcmp)
-    _dgr                                     0x08001745   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    __aeabi_dcmpge                           0x08001753   Thumb Code     0  dcmp.o(x$fpl$fcmp)
-    _dgeq                                    0x08001753   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    __aeabi_dcmple                           0x08001761   Thumb Code     0  dcmp.o(x$fpl$fcmp)
-    _dleq                                    0x08001761   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    __aeabi_dcmplt                           0x0800176f   Thumb Code     0  dcmp.o(x$fpl$fcmp)
-    _dls                                     0x0800176f   Thumb Code    14  dcmp.o(x$fpl$fcmp)
-    Region$$Table$$Base                      0x0800177c   Number         0  anon$$obj.o(Region$$Table)
-    __I$use$fp                               0x0800177c   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Limit                     0x0800179c   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x0800082d   Thumb Code   664  main.o(.text.main)
+    read_BAK_reg                             0x08000ac5   Thumb Code    12  main.o(.text.read_BAK_reg)
+    read_GP                                  0x08000ad1   Thumb Code    44  gp_drive.o(.text.read_GP)
+    sim800_send_sms                          0x08000afd   Thumb Code   324  sim800_drive.o(.text.sim800_send_sms)
+    single_readout_ADC1_regu                 0x08000c41   Thumb Code    28  adc_drive.o(.text.single_readout_ADC1_regu)
+    str_concat                               0x08000c5d   Thumb Code    70  str_lib.o(.text.str_concat)
+    str_empty                                0x08000ca5   Thumb Code    24  str_lib.o(.text.str_empty)
+    systick_init                             0x08000cbd   Thumb Code    38  systick_lib.o(.text.systick_init)
+    systick_inter_start                      0x08000ce5   Thumb Code    42  systick_lib.o(.text.systick_inter_start)
+    update_adc_readouts                      0x08000d11   Thumb Code    30  adc_drive.o(.text.update_adc_readouts)
+    write_BAK_reg                            0x08000d31   Thumb Code    12  main.o(.text.write_BAK_reg)
+    write_GP                                 0x08000d3d   Thumb Code    62  gp_drive.o(.text.write_GP)
+    __aeabi_dadd                             0x08000d7d   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
+    _dadd                                    0x08000d7d   Thumb Code   332  daddsub_clz.o(x$fpl$dadd)
+    __fpl_dcmp_Inf                           0x08000ecd   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
+    __aeabi_ddiv                             0x08000ee5   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    _ddiv                                    0x08000ee5   Thumb Code   552  ddiv.o(x$fpl$ddiv)
+    __aeabi_cdcmpeq                          0x08001195   Thumb Code     0  deqf.o(x$fpl$deqf)
+    _dcmpeq                                  0x08001195   Thumb Code   120  deqf.o(x$fpl$deqf)
+    __aeabi_d2uiz                            0x0800120d   Thumb Code     0  dfixu.o(x$fpl$dfixu)
+    _dfixu                                   0x0800120d   Thumb Code    90  dfixu.o(x$fpl$dfixu)
+    __aeabi_ui2d                             0x08001267   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
+    _dfltu                                   0x08001267   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
+    __aeabi_cdcmpge                          0x0800128d   Thumb Code     0  dgeqf.o(x$fpl$dgeqf)
+    _dcmpge                                  0x0800128d   Thumb Code   120  dgeqf.o(x$fpl$dgeqf)
+    __aeabi_cdcmple                          0x08001305   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    _dcmple                                  0x08001305   Thumb Code   120  dleqf.o(x$fpl$dleqf)
+    __fpl_dcmple_InfNaN                      0x08001367   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    __aeabi_dmul                             0x0800137d   Thumb Code     0  dmul.o(x$fpl$dmul)
+    _dmul                                    0x0800137d   Thumb Code   332  dmul.o(x$fpl$dmul)
+    __fpl_dnaninf                            0x080014d1   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
+    __fpl_dretinf                            0x0800156d   Thumb Code    12  dretinf.o(x$fpl$dretinf)
+    __aeabi_dsub                             0x08001579   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
+    _dsub                                    0x08001579   Thumb Code   464  daddsub_clz.o(x$fpl$dsub)
+    __aeabi_dcmpeq                           0x0800174d   Thumb Code     0  dcmp.o(x$fpl$fcmp)
+    _deq                                     0x0800174d   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    _dneq                                    0x0800175b   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    __aeabi_dcmpgt                           0x08001769   Thumb Code     0  dcmp.o(x$fpl$fcmp)
+    _dgr                                     0x08001769   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    __aeabi_dcmpge                           0x08001777   Thumb Code     0  dcmp.o(x$fpl$fcmp)
+    _dgeq                                    0x08001777   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    __aeabi_dcmple                           0x08001785   Thumb Code     0  dcmp.o(x$fpl$fcmp)
+    _dleq                                    0x08001785   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    __aeabi_dcmplt                           0x08001793   Thumb Code     0  dcmp.o(x$fpl$fcmp)
+    _dls                                     0x08001793   Thumb Code    14  dcmp.o(x$fpl$fcmp)
+    Region$$Table$$Base                      0x080017a0   Number         0  anon$$obj.o(Region$$Table)
+    __I$use$fp                               0x080017a0   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Limit                     0x080017c0   Number         0  anon$$obj.o(Region$$Table)
     __libspace_start                         0x20000008   Data          96  libspace.o(.bss)
     ReadoutsHolder                           0x20000068   Data           6  main.o(.bss.ReadoutsHolder)
     __temporary_stack_top$libspace           0x20000068   Data           0  libspace.o(.bss)
@@ -764,9 +764,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_1 (Base: 0x08000000, Size: 0x000017a4, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x08000000, Size: 0x000017c8, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000179c, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000017c0, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -861,50 +861,49 @@ Memory Map of the image
     0x08000748   0x08000748   0x00000078   Code   RO            2    .text.init_GP       gp_drive.o
     0x080007c0   0x080007c0   0x0000006a   Code   RO           74    .text.int2str       str_lib.o
     0x0800082a   0x0800082a   0x00000002   PAD
-    0x0800082c   0x0800082c   0x00000272   Code   RO           18    .text.main          main.o
-    0x08000a9e   0x08000a9e   0x00000002   PAD
-    0x08000aa0   0x08000aa0   0x0000000c   Code   RO           24    .text.read_BAK_reg  main.o
-    0x08000aac   0x08000aac   0x0000002c   Code   RO            4    .text.read_GP       gp_drive.o
-    0x08000ad8   0x08000ad8   0x00000144   Code   RO           50    .text.sim800_send_sms  sim800_drive.o
-    0x08000c1c   0x08000c1c   0x0000001c   Code   RO          128    .text.single_readout_ADC1_regu  adc_drive.o
-    0x08000c38   0x08000c38   0x00000046   Code   RO           72    .text.str_concat    str_lib.o
-    0x08000c7e   0x08000c7e   0x00000002   PAD
-    0x08000c80   0x08000c80   0x00000018   Code   RO           64    .text.str_empty     str_lib.o
-    0x08000c98   0x08000c98   0x00000026   Code   RO           86    .text.systick_init  systick_lib.o
-    0x08000cbe   0x08000cbe   0x00000002   PAD
-    0x08000cc0   0x08000cc0   0x0000002a   Code   RO           92    .text.systick_inter_start  systick_lib.o
-    0x08000cea   0x08000cea   0x00000002   PAD
-    0x08000cec   0x08000cec   0x0000001e   Code   RO          130    .text.update_adc_readouts  adc_drive.o
-    0x08000d0a   0x08000d0a   0x00000002   PAD
-    0x08000d0c   0x08000d0c   0x0000000c   Code   RO           26    .text.write_BAK_reg  main.o
-    0x08000d18   0x08000d18   0x0000003e   Code   RO            6    .text.write_GP      gp_drive.o
-    0x08000d56   0x08000d56   0x00000002   PAD
-    0x08000d58   0x08000d58   0x00000150   Code   RO          172    x$fpl$dadd          fz_ws.l(daddsub_clz.o)
-    0x08000ea8   0x08000ea8   0x00000018   Code   RO          223    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
-    0x08000ec0   0x08000ec0   0x000002b0   Code   RO          181    x$fpl$ddiv          fz_ws.l(ddiv.o)
-    0x08001170   0x08001170   0x00000078   Code   RO          197    x$fpl$deqf          fz_ws.l(deqf.o)
-    0x080011e8   0x080011e8   0x0000005a   Code   RO          184    x$fpl$dfixu         fz_ws.l(dfixu.o)
-    0x08001242   0x08001242   0x00000026   Code   RO          188    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
-    0x08001268   0x08001268   0x00000078   Code   RO          199    x$fpl$dgeqf         fz_ws.l(dgeqf.o)
-    0x080012e0   0x080012e0   0x00000078   Code   RO          201    x$fpl$dleqf         fz_ws.l(dleqf.o)
-    0x08001358   0x08001358   0x00000154   Code   RO          194    x$fpl$dmul          fz_ws.l(dmul.o)
-    0x080014ac   0x080014ac   0x0000009c   Code   RO          203    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
-    0x08001548   0x08001548   0x0000000c   Code   RO          205    x$fpl$dretinf       fz_ws.l(dretinf.o)
-    0x08001554   0x08001554   0x000001d4   Code   RO          174    x$fpl$dsub          fz_ws.l(daddsub_clz.o)
-    0x08001728   0x08001728   0x00000054   Code   RO          178    x$fpl$fcmp          fz_ws.l(dcmp.o)
-    0x0800177c   0x0800177c   0x00000000   Code   RO          207    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x0800177c   0x0800177c   0x00000020   Data   RO          369    Region$$Table       anon$$obj.o
+    0x0800082c   0x0800082c   0x00000298   Code   RO           18    .text.main          main.o
+    0x08000ac4   0x08000ac4   0x0000000c   Code   RO           24    .text.read_BAK_reg  main.o
+    0x08000ad0   0x08000ad0   0x0000002c   Code   RO            4    .text.read_GP       gp_drive.o
+    0x08000afc   0x08000afc   0x00000144   Code   RO           50    .text.sim800_send_sms  sim800_drive.o
+    0x08000c40   0x08000c40   0x0000001c   Code   RO          128    .text.single_readout_ADC1_regu  adc_drive.o
+    0x08000c5c   0x08000c5c   0x00000046   Code   RO           72    .text.str_concat    str_lib.o
+    0x08000ca2   0x08000ca2   0x00000002   PAD
+    0x08000ca4   0x08000ca4   0x00000018   Code   RO           64    .text.str_empty     str_lib.o
+    0x08000cbc   0x08000cbc   0x00000026   Code   RO           86    .text.systick_init  systick_lib.o
+    0x08000ce2   0x08000ce2   0x00000002   PAD
+    0x08000ce4   0x08000ce4   0x0000002a   Code   RO           92    .text.systick_inter_start  systick_lib.o
+    0x08000d0e   0x08000d0e   0x00000002   PAD
+    0x08000d10   0x08000d10   0x0000001e   Code   RO          130    .text.update_adc_readouts  adc_drive.o
+    0x08000d2e   0x08000d2e   0x00000002   PAD
+    0x08000d30   0x08000d30   0x0000000c   Code   RO           26    .text.write_BAK_reg  main.o
+    0x08000d3c   0x08000d3c   0x0000003e   Code   RO            6    .text.write_GP      gp_drive.o
+    0x08000d7a   0x08000d7a   0x00000002   PAD
+    0x08000d7c   0x08000d7c   0x00000150   Code   RO          172    x$fpl$dadd          fz_ws.l(daddsub_clz.o)
+    0x08000ecc   0x08000ecc   0x00000018   Code   RO          223    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
+    0x08000ee4   0x08000ee4   0x000002b0   Code   RO          181    x$fpl$ddiv          fz_ws.l(ddiv.o)
+    0x08001194   0x08001194   0x00000078   Code   RO          197    x$fpl$deqf          fz_ws.l(deqf.o)
+    0x0800120c   0x0800120c   0x0000005a   Code   RO          184    x$fpl$dfixu         fz_ws.l(dfixu.o)
+    0x08001266   0x08001266   0x00000026   Code   RO          188    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
+    0x0800128c   0x0800128c   0x00000078   Code   RO          199    x$fpl$dgeqf         fz_ws.l(dgeqf.o)
+    0x08001304   0x08001304   0x00000078   Code   RO          201    x$fpl$dleqf         fz_ws.l(dleqf.o)
+    0x0800137c   0x0800137c   0x00000154   Code   RO          194    x$fpl$dmul          fz_ws.l(dmul.o)
+    0x080014d0   0x080014d0   0x0000009c   Code   RO          203    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
+    0x0800156c   0x0800156c   0x0000000c   Code   RO          205    x$fpl$dretinf       fz_ws.l(dretinf.o)
+    0x08001578   0x08001578   0x000001d4   Code   RO          174    x$fpl$dsub          fz_ws.l(daddsub_clz.o)
+    0x0800174c   0x0800174c   0x00000054   Code   RO          178    x$fpl$fcmp          fz_ws.l(dcmp.o)
+    0x080017a0   0x080017a0   0x00000000   Code   RO          207    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x080017a0   0x080017a0   0x00000020   Data   RO          369    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x0800179c, Size: 0x00000008, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x080017c0, Size: 0x00000008, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0800179c   0x00000003   Data   RW           55    .data.order_term_buf  sim800_drive.o
-    0x20000003   0x0800179f   0x00000004   Data   RW           56    .data.sms_term_buf  sim800_drive.o
+    0x20000000   0x080017c0   0x00000003   Data   RW           55    .data.order_term_buf  sim800_drive.o
+    0x20000003   0x080017c3   0x00000004   Data   RW           56    .data.sms_term_buf  sim800_drive.o
 
 
-    Execution Region ER_ZI (Exec base: 0x20000008, Load base: 0x080017a4, Size: 0x00000f50, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x20000008, Load base: 0x080017c8, Size: 0x00000f50, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -914,7 +913,7 @@ Memory Map of the image
     0x20000168        -       0x000007d0   Zero   RW           41    .bss.USART_3_msg    main.o
     0x20000938        -       0x0000000e   Zero   RW           37    .bss.uart_2_mgr     main.o
     0x20000946        -       0x0000000e   Zero   RW           38    .bss.uart_3_mgr     main.o
-    0x20000954   0x080017a4   0x00000004   PAD
+    0x20000954   0x080017c8   0x00000004   PAD
     0x20000958        -       0x00000200   Zero   RW          140    HEAP                startup_stm32f10x_md.o
     0x20000b58        -       0x00000400   Zero   RW          139    STACK               startup_stm32f10x_md.o
 
@@ -928,7 +927,7 @@ Image component sizes
 
         58          0          0          0          0       1539   adc_drive.o
        226          0          0          0          0       1837   gp_drive.o
-       770          0          0          0       2284       7475   main.o
+       808          0          0          0       2284       7477   main.o
        324         36          0          7          0       1241   sim800_drive.o
         64         26        236          0       1536        832   startup_stm32f10x_md.o
        200          0          0          0          0       3092   str_lib.o
@@ -937,9 +936,9 @@ Image component sizes
        802          0          0          0          0       5480   uart_drive.o
 
     ----------------------------------------------------------------------
-      2900         62        268          8       3824      25920   Object Totals
+      2936         62        268          8       3824      25922   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        38          0          0          1          4          0   (incl. Padding)
+        36          0          0          1          4          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1000,15 +999,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      5776        266        268          8       3920      27068   Grand Totals
-      5776        266        268          8       3920      27068   ELF Image Totals
-      5776        266        268          8          0          0   ROM Totals
+      5812        266        268          8       3920      27070   Grand Totals
+      5812        266        268          8       3920      27070   ELF Image Totals
+      5812        266        268          8          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 6044 (   5.90kB)
+    Total RO  Size (Code + RO Data)                 6080 (   5.94kB)
     Total RW  Size (RW Data + ZI Data)              3928 (   3.84kB)
-    Total ROM Size (Code + RO Data + RW Data)       6052 (   5.91kB)
+    Total ROM Size (Code + RO Data + RW Data)       6088 (   5.95kB)
 
 ==============================================================================
 
