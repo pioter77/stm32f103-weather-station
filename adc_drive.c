@@ -15,4 +15,5 @@ void update_adc_readouts(Readouts *data_hldr)
 	data_hldr->humi_adc=single_readout_ADC1_regu(ADC_MY_HUMI_CHAN);
 	data_hldr->light_adc=single_readout_ADC1_regu(ADC_MY_LIGHT_CHAN);
 	data_hldr->temp_adc=single_readout_ADC1_regu(ADC_MY_THERM_CHAN);
+	data_hldr->batt_adc=single_readout_ADC1_regu(ADC_MY_BATT_CHAN);
 }

@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\proj_stacja.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\proj_stacja.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Tue Dec 29 01:11:44 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Wed Dec 30 01:30:02 2020
 <BR><P>
-<H3>Maximum Stack Usage =        124 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        148 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; sim800_send_sms &rArr; int2str
 <P>
@@ -44,7 +44,7 @@ Function Pointers
  <LI><a href="#[1a]">DMA1_Channel6_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[1b]">DMA1_Channel7_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[7]">DebugMon_Handler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
- <LI><a href="#[10]">EXTI0_IRQHandler</a> from main.o(.text.EXTI0_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[10]">EXTI0_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[32]">EXTI15_10_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[11]">EXTI1_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[12]">EXTI2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
@@ -63,7 +63,7 @@ Function Pointers
  <LI><a href="#[8]">PendSV_Handler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[f]">RCC_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[33]">RTCAlarm_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
- <LI><a href="#[d]">RTC_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[d]">RTC_IRQHandler</a> from main.o(.text.RTC_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[0]">Reset_Handler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[2d]">SPI1_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
  <LI><a href="#[2e]">SPI2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
@@ -203,7 +203,7 @@ Global Symbols
 <P><STRONG><a name="[9c]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[40]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 124 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 148 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; sim800_send_sms &rArr; int2str
 </UL>
 <BR>[Calls]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -319,6 +319,9 @@ Global Symbols
 <P><STRONG><a name="[1b]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
+<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
 <P><STRONG><a name="[32]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
@@ -359,9 +362,6 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
 <P><STRONG><a name="[33]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
-<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
-</UL>
-<P><STRONG><a name="[d]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
 <P><STRONG><a name="[2d]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
@@ -456,7 +456,7 @@ Global Symbols
 
 <P><STRONG><a name="[a6]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, main.o(.text.EXTI0_IRQHandler))
+<P><STRONG><a name="[d]"></a>RTC_IRQHandler</STRONG> (Thumb, 80 bytes, Stack size 0 bytes, main.o(.text.RTC_IRQHandler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
 <P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text.SysTick_Handler))
@@ -547,7 +547,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_MS
 </UL>
 
-<P><STRONG><a name="[5e]"></a>init_BAK_reg</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, main.o(.text.init_BAK_reg))
+<P><STRONG><a name="[60]"></a>init_BAK_reg</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, main.o(.text.init_BAK_reg))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -558,43 +558,46 @@ Global Symbols
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_init
 </UL>
 
+<P><STRONG><a name="[5c]"></a>init_RTC</STRONG> (Thumb, 156 bytes, Stack size 8 bytes, main.o(.text.init_RTC))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = init_RTC
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_EnableIRQ
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_ClearPendingIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
 <P><STRONG><a name="[66]"></a>int2str</STRONG> (Thumb, 106 bytes, Stack size 28 bytes, str_lib.o(.text.int2str))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = int2str
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sim800_send_sms
 </UL>
 
-<P><STRONG><a name="[41]"></a>main</STRONG> (Thumb, 664 bytes, Stack size 0 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = main &rArr; sim800_send_sms &rArr; int2str
+<P><STRONG><a name="[41]"></a>main</STRONG> (Thumb, 378 bytes, Stack size 0 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 148<LI>Call Chain = main &rArr; sim800_send_sms &rArr; int2str
 </UL>
-<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_BAK_reg
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_BAK_reg
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;update_adc_readouts
 <LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_inter_start
 <LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_init
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_empty
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sim800_send_sms
-<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_BAK_reg
-<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_BAK_reg
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_BAK_reg
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_RTC
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_BAK_reg
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_MS
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_init
-<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_EnableIRQ
-<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_GP
-<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_GP
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_GP
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_GP
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[5f]"></a>read_BAK_reg</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text.read_BAK_reg))
+<P><STRONG><a name="[64]"></a>read_BAK_reg</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text.read_BAK_reg))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[65]"></a>read_GP</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, gp_drive.o(.text.read_GP))
-<BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[63]"></a>sim800_send_sms</STRONG> (Thumb, 324 bytes, Stack size 96 bytes, sim800_drive.o(.text.sim800_send_sms))
-<BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = sim800_send_sms &rArr; int2str
+<P><STRONG><a name="[63]"></a>sim800_send_sms</STRONG> (Thumb, 388 bytes, Stack size 120 bytes, sim800_drive.o(.text.sim800_send_sms))
+<BR><BR>[Stack]<UL><LI>Max Depth = 148<LI>Call Chain = sim800_send_sms &rArr; int2str
 </UL>
 <BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;str_concat
 <LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;int2str
@@ -614,10 +617,6 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sim800_send_sms
 </UL>
 
-<P><STRONG><a name="[64]"></a>str_empty</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, str_lib.o(.text.str_empty))
-<BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
 <P><STRONG><a name="[61]"></a>systick_init</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, systick_lib.o(.text.systick_init))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -627,7 +626,7 @@ Global Symbols
 <LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_isr
 </UL>
 
-<P><STRONG><a name="[62]"></a>update_adc_readouts</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, adc_drive.o(.text.update_adc_readouts))
+<P><STRONG><a name="[62]"></a>update_adc_readouts</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, adc_drive.o(.text.update_adc_readouts))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = update_adc_readouts
 </UL>
 <BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;single_readout_ADC1_regu
@@ -635,11 +634,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[60]"></a>write_BAK_reg</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text.write_BAK_reg))
+<P><STRONG><a name="[65]"></a>write_BAK_reg</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text.write_BAK_reg))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[5d]"></a>write_GP</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, gp_drive.o(.text.write_GP))
+<P><STRONG><a name="[5f]"></a>write_GP</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, gp_drive.o(.text.write_GP))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -796,8 +795,12 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[5c]"></a>__NVIC_EnableIRQ</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(.text.__NVIC_EnableIRQ))
-<BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<P><STRONG><a name="[5d]"></a>__NVIC_ClearPendingIRQ</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(.text.__NVIC_ClearPendingIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_RTC
+</UL>
+
+<P><STRONG><a name="[5e]"></a>__NVIC_EnableIRQ</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(.text.__NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_RTC
 </UL>
 
 <P><STRONG><a name="[4e]"></a>__NVIC_EnableIRQ</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, uart_drive.o(.text.__NVIC_EnableIRQ))
