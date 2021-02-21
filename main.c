@@ -75,7 +75,8 @@ int main(void)
 	//write_GP(PA,8,LOW);
 	//write_GP(PA,9,LOW);
 	init_GP(PB,15,OUT50,O_GP_PP);	//trnasistor base for sim800l
-	write_GP(PB,15,HIGH);
+	//write_GP(PB,15,HIGH);
+	write_GP(PB,15,LOW);
 	init_GP(PB,3,OUT50,O_GP_PP);	//trnasistor base for ne555 humidity
 	write_GP(PB,3,HIGH);
 	init_BAK_reg();
@@ -95,7 +96,7 @@ int main(void)
 		
 	}
 	*/
-	init_RTC(28800);
+	init_RTC(28800);	//8hrs in seconds
 	
 	systick_init();
 	systick_inter_start();
@@ -148,7 +149,8 @@ int main(void)
 			//GPIOC->CRH &= 
 			write_GP(PA,8,LOW);
 			write_GP(PA,9,LOW);
-			write_GP(PB,15,LOW);	//turn off sim800l power trnasistor base
+		//	write_GP(PB,15,LOW);	//turn off sim800l power trnasistor base
+				write_GP(PB,15,HIGH);	//turn off sim800l power trnasistor base
 			write_GP(PB,3,LOW);	//turn off ne555 power trnasistor base
 			SCB->SCR |= SCB_SCR_SLEEPDEEP;
 			PWR->CR |= PWR_CR_PDDS;			// standby register
